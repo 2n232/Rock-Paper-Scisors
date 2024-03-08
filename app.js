@@ -13,3 +13,8 @@ function getComputerChoice() {
             break;
     }
 }
+
+function getPlayerSelection() {
+    let playerSelection = prompt('Write one of these three options: rock, paper or scissors').toLowerCase();
+    return playerSelection;
+}
